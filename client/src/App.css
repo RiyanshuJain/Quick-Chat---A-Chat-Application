@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+
+
+@media (max-aspect-ratio: 7/10) {
+
+    .JoinPage {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+
+    .JoinContainer {
+        margin-top: 60vw !important;
+        width: 100% !important;
+
+    }
+
+    .JoinContainer>h1 {
+
+        font-size: 6vw !important;
+        width: 65vw !important;
+        border-bottom: 0.6vw solid white !important;
+        padding: 3vw !important;
+
+    }
+
+    #joinInput {
+        width: 65vw !important;
+        padding: 4vw !important;
+
+        font-size: 5vw !important;
+        margin: 5vw !important;
+
+    }
+
+    .joinbtn {
+        width: 35vw !important;
+        padding: 4vw !important;
+
+        font-size: 5vw !important;
+
+    }
+
+    .chatContainer {
+        background-color: #2BAE66;
+        border: 2px solid #D2D5CD;
+        margin-top: 20vw !important;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+
+        height: 10% !important;
+    }
+
+    .header>h2 {
+        margin: 8vw !important;
+        font-size: 5vw !important;
+    }
+
+    /* .chatPage {
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+
+    .chatBox {
+
+        height: 80% !important;
+    }
+
+    .inputBox {
+
+        height: 10% !important;
+
+    }
+
+    #chatInput {
+
+        padding: 4vw !important;
+        font-size: 4vw !important;
+    }
+
+    .messageBox {
+
+
+        padding: 3vw !important;
+        /* margin: 3vw !important; */
+        /* border-radius: 1.5vw !important; */
+        font-size: 3.7vw !important;
+        display: inline-block;
+        clear: both;
+    }
+
+    .right {
+        float: right;
+        background-color: #FFFFFF;
+        margin-right: 0.2px;
+        color: black;
+        text-align: right;
+        border-radius: 20px 0px 0px 20px;
+        font-family: 'Comfortaa';
+    }
+
+    .left {
+        margin-left: 1px;
+        float: left;
+        text-align: left;
+        background-color: #D2D5CD;
+        border-radius: 0px 20px 20px 0px;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+    }
+
+    /* .textContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        color: white;
+        height: 50%;
+        width: 100%;
+        justify-content: space-between;
+      }
+      
+      .activeContainer {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50%;
+      } */
+
+    .textContainer {
+        display: none;
+    }
+
+}

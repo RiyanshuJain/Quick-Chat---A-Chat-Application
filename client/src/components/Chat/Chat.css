@@ -1,0 +1,88 @@
+.chatPage {
+    background-color: rgb(31, 29, 29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer {
+    background-color: #2BAE66;
+    border: 2px solid #D2D5CD;
+    border-radius: 20px;
+    height: 60%;
+    width: 50%;
+}
+
+.header {
+    background-color: #2E8053;
+    border-radius: 20px;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header>h2 {
+    font-size: 1.5vmax;
+    font-family: 'Kiwi Maru';
+    color: white;
+    margin: 2.5vmax;
+}
+
+.header>a {
+    font-size: 1vmax;
+    font-family: 'Kiwi Maru';
+    color: white;
+    margin: 2.5vmax;
+}
+
+.chatBox {
+    height: 70%;
+    box-sizing: border-box;
+}
+
+.inputBox {
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#chatInput {
+    border-radius: 0px 10px 0px 20px;
+    width: 80%;
+    border: none;
+    padding: 2vmax;
+    box-sizing: border-box;
+    background-color: white;
+    outline: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2vmax;
+    border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
+}
+
+.sendBtn {
+    background-color: #D2D5CD;
+    color: black;
+    border: none;
+    width: 21%;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-family: 'Kiwi Maru', serif;
+    border-radius: 10px 0px 20px 0px;
+}
+
+.sendBtn>img {
+    width: 2vmax;
+    filter: brightness(100) invert();
+    transition: all 0.3s;
+}
+
+.sendBtn:hover {
+    background-color: #2E8053;
+}
+
+.sendBtn:hover img {
+    transform: translateX(10px);
+}
